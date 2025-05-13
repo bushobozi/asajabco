@@ -32,7 +32,7 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <a href="#contact" className="bg-primary text-primary-foreground text-center hover:bg-primary/90 text-base shadow-xl font-bold px-4 py-4 h-fit rounded-2xl">Contact Us</a>
-              <a href="#services" variant="outline" className="border-white text-center bg-white text-primary rounded-2xl font-bold shadow-xl hover:bg-orange-600 hover:text-white text-base px-4 py-4 h-fit flex">
+              <a href="#services" variant="outline" className="border-white text-center bg-white text-primary rounded-2xl font-bold shadow-xl hover:bg-orange-600 hover:text-white text-base px-4 py-4 h-fit lg:w-fit w-full flex">
                 Our Services <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </div>

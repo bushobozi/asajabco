@@ -64,7 +64,7 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden md:hidden lg:hidden xl:flex items-center space-x-1">
             <NavigationMenu>
               <NavigationMenuList>
                 {navLinks.map((link) => (
@@ -81,7 +81,7 @@ const Navbar = () => {
             </NavigationMenu>
           </div>
 
-          <div className="hidden md:flex items-center">
+          <div className="hidden md:hidden lg:hidden xl:flex items-center">
             <a href="tel:+256772856840" className="flex items-center mr-4 text-secondary hover:text-primary">
               <Phone className="h-4 w-4 mr-1" />
               <span className="text-sm font-medium">+256 772 856840</span>
@@ -90,7 +90,7 @@ const Navbar = () => {
               <Button className="bg-primary hover:bg-primary/90 rounded-xl">Contact Us</Button></a>
           </div>
 
-          <div className="md:hidden">
+          <div className="xl:hidden">
             <Button
               variant="ghost"
               size="icon"
