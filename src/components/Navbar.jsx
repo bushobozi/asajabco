@@ -126,9 +126,9 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="pt-3 flex flex-col space-y-3">
-                <a href="tel:+256777123456" className="flex items-center text-secondary hover:text-primary">
+                <a href="tel:+256772856840" className="flex items-center text-secondary hover:text-primary">
                   <Phone className="h-4 w-4 mr-1" />
-                  <span className="text-sm font-medium">+256 777 123456</span>
+                  <span className="text-sm font-medium">+256 772 856840</span>
                 </a>
                 <a href="#contact">
                   <Button className="w-full bg-primary hover:bg-primary/90">Contact Us</Button></a>
