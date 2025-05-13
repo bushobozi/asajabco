@@ -98,9 +98,9 @@ const Navbar = () => {
               aria-label="Toggle Menu"
             >
               {isMobileMenuOpen ? (
-                <X className="h-6 w-6 text-white" />
+                <X className="h-6 w-6 text-orange-600" />
               ) : (
-                <Menu className="h-6 w-6 text-white" />
+                <Menu className="h-6 w-6 text-orange-600" />
               )}
             </Button>
           </div>
