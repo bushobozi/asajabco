@@ -76,7 +76,7 @@ const Portofolio = () => {
                                 <img
                                     src={item.image}
                                     alt={item.title}
-                                    className="w-[500px] h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
+                                    className=" w-[100%] h-[100%] lg:w-[500px] lg:h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
                                 />
                                 <div className="absolute inset-0 bg-black/25 bg-opacity-50 flex flex-col justify-end p-4 transition-opacity duration-300 group-hover:bg-opacity-70">
                                     <h3 className="text-xl font-semibold text-white">{item.title}</h3>
