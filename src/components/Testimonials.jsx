@@ -5,27 +5,27 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Sarah Birungi",
     role: "Homeowner",
     image: "woman-homeowner",
     content:
-      "Asajabco.Ltd has been providing gas for my home for over 5 years now. Their service is always prompt, and their staff is knowledgeable and friendly. I highly recommend them for residential gas needs.",
+      "Asajab Co. Ltd has been providing gas for my home for over 5 years now. Their service is always prompt, and their staff is knowledgeable and friendly. I highly recommend them for residential gas needs.",
     rating: 5,
   },
   {
-    name: "Michael Chen",
+    name: "Michael Ocen",
     role: "Restaurant Owner",
     image: "man-restaurant-owner",
     content:
-      "As a restaurant owner, reliable gas supply is crucial for my business. Asajabco.Ltd has never let me down. Their commercial gas service is excellent, and their emergency response is impressively fast.",
+      "As a restaurant owner, reliable gas supply is crucial for my business. Asajab Co. Ltd has never let me down. Their commercial gas service is excellent, and their emergency response is impressively fast.",
     rating: 5,
   },
   {
-    name: "Robert Williams",
+    name: "Ahumuza Robert Williams",
     role: "Factory Manager",
     image: "man-factory-manager",
     content:
-      "We've been using Asajabco.Ltd's industrial gas solutions for our manufacturing plant. Their team helped us optimize our gas usage, resulting in significant cost savings without compromising on quality.",
+      "We've been using Asajab Co. Ltd's industrial gas solutions for our manufacturing plant. Their team helped us optimize our gas usage, resulting in significant cost savings without compromising on quality.",
     rating: 4,
   },
 ];
@@ -61,12 +61,12 @@ const Testimonials = () => {
               className="testimonial-card bg-orange-600 rounded-xl p-6 shadow-sm"
             >
               <div className="flex items-center mb-4">
-                <div className="mr-4">
+                {/* <div className="mr-4">
                   <img
                     className="h-14 w-14 rounded-full object-cover"
                     alt={`${testimonial.name} portrait`}
-                    src="https://images.unsplash.com/photo-1684262855344-b9da453a7934" />
-                </div>
+                    src="https://cdn.pixabay.com/photo/2021/04/08/13/12/woman-6161635_640.jpg" />
+                </div> */}
                 <div>
                   <h4 className="font-semibold text-white">{testimonial.name}</h4>
                   <p className="text-sm text-white">{testimonial.role}</p>

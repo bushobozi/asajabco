@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
-import { About, Contact, FAQ, Loader, Services, Testimonials } from "./components";
+import { About, Contact, FAQ, Loader, Portofolio, Services, Testimonials } from "./components";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -39,6 +39,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Portofolio />
         <About />
         <Testimonials />
         <Contact />

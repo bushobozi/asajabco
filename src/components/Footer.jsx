@@ -8,11 +8,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
+            <img src="/images/logo.png" className="w-14 h-14" />
             <h3 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-200">
-              Asajabco.Ltd
+              Asajab Co. Ltd
             </h3>
             <p className="text-gray-400 mb-6">
-              Your trusted partner for efficient transport of cargo, fuel, and agricultural produce. Pioneering research in climate change and sustainable development.
+              Your trusted partner for efficient transport of cargo, fuel, and agricultural produce. Pioneering environmental research for sustainable development.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
@@ -78,11 +79,11 @@ const Footer = () => {
                   <Phone className="h-5 w-5 text-orange-400" />
                 </div>
                 <span className="text-gray-400">
-                  0(+256) 772 856 840
+                  <a href="tel:+256772856840">0(+256) 772 856 840</a>
                   <br />
-                  0(+256) 702 683 660
+                  <a href="tel:+256702683660">0(+256) 702 683 660</a>
                   <br />
-                  0(+256) 774 599 555
+                  <a href="tel:+256786443766">0(+256) 786 443 766</a>
                 </span>
               </li>
               <li className="flex items-start">

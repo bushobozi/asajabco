@@ -14,7 +14,7 @@ const CTA = () => {
               <img
                 className="w-full h-full object-cover"
                 alt="African marketplace pattern"
-                src="https://images.unsplash.com/photo-1602397619989-5c91486230c1" />
+                src="images/truck2.png" />
             </div>
 
             <div className="relative z-10 max-w-3xl">

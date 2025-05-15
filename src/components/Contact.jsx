@@ -31,70 +31,18 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="bg-white rounded-xl p-8 shadow-0 border border-border">
-              <h3 className="text-2xl font-semibold mb-6">Send Us a Message</h3>
-              <form className="space-y-5">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                      Full Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="John Doe"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="john@example.com"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="0770 XXX XXX"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="How can we help you?"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows="4"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="Please provide details about your inquiry..."
-                  ></textarea>
-                </div>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white py-4 h-auto">
-                  Send Message
-                </Button>
-              </form>
+            <div className="bg-white rounded-xl">
+              <h3 className="text-2xl font-semibold mb-6">Find Us Today</h3>
+              <div className="bg-white rounded-xl overflow-hidden shadow-md h-[400px]">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7475116103706!2d32.58441921534762!3d0.3413541997554286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbba84e9ede3d%3A0x8c4a55f05dad9f33!2sTHETA%20Uganda!5e0!3m2!1sen!2sug!4v1747151161872!5m2!1sen!2sug"
+                  className="w-full h-full"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
           </motion.div>
 
@@ -118,7 +66,7 @@ const Contact = () => {
                       <br />
                       Kagadi Offices: Salsa Building, Kagadi-Hoima Road
                       <br />
-                      Fort Portal Offices: C/0 Mogas Kitumba-Kla-F/P Road
+                      Fort Portal Offices: C/O Mogas Kitumba-Kampala-Fort Portal Road
                     </p>
                   </div>
                 </div>
@@ -130,11 +78,11 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium">Phone Number</h4>
                     <p className="text-gray-600">
-                      0(+256) 772 856 840
+                      <a href="tel:+256772856840">0(+256) 772 856 840</a>
                       <br />
-                      0(+256) 702 683 660
+                      <a href="tel:+256702683660">0(+256) 702 683 660</a>
                       <br />
-                      0(+256) 774 599 555
+                      <a href="tel:+256786443766">0(+256) 786 443 766</a>
                     </p>
                   </div>
                 </div>
@@ -146,7 +94,8 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium">Email Address</h4>
                     <p className="text-gray-600">
-                      asajabco.ug01@gmail.com
+                      <a href="mailto:asajabco.ug01@gmail.com">
+                        asajabco.ug01@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -179,17 +128,6 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-white rounded-xl overflow-hidden shadow-md h-[400px]">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7475116103706!2d32.58441921534762!3d0.3413541997554286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbba84e9ede3d%3A0x8c4a55f05dad9f33!2sTHETA%20Uganda!5e0!3m2!1sen!2sug!4v1747151161872!5m2!1sen!2sug"
-                className="w-full h-full"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
             </div>
           </motion.div>
         </div>

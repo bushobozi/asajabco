@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react";
 
 const About = () => {
   const benefits = [
-    "25+ years of industry experience",
+    "8+ years of industry experience",
     "Certified and trained professionals",
     "24/7 emergency support",
     "Competitive pricing",
@@ -26,13 +26,13 @@ const About = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img
-                className="w-full h-auto"
+                className="w-full h-[600px] object-cover"
                 alt="Gas company professionals"
-                src="https://images.unsplash.com/photo-1602397619989-5c91486230c1" />
+                src="images/poster.jpg" />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-orange-600 rounded-lg p-6 shadow-lg hidden md:block">
               <div className="text-white">
-                <p className="text-3xl font-bold">25+</p>
+                <p className="text-3xl font-bold">8+</p>
                 <p className="text-sm">Years of Excellence</p>
               </div>
             </div>
@@ -45,10 +45,10 @@ const About = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              About <span className="text-orange-600">Asajabco.Ltd</span>
+              About <span className="text-orange-600">Asajab Co. Ltd</span>
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              Since 1998, Asajabco.Ltd has been a leading provider of gas solutions, serving residential, commercial, and industrial clients with unwavering commitment to safety, reliability, and customer satisfaction.
+              Since 2017, Asajab Co. Ltd has been a leading supplier of petroleum products, gas distribution and transport, serving residential, commercial, and industrial clients with unwavering commitment to safety, reliability, and customer satisfaction.
             </p>
             <p className="text-lg text-gray-700 mb-8">
               Our team of certified professionals is dedicated to delivering exceptional service, utilizing cutting-edge technology and adhering to the highest industry standards to ensure that your gas needs are met efficiently and safely.

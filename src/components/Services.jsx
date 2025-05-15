@@ -8,13 +8,13 @@ const serviceItems = [
   {
     icon: <Truck className="h-10 w-10 text-primary" />,
     title: "Cargo Transportation",
-    description: "Reliable and secure transportation of general cargo across various destinations.",
+    description: "Transportation of petroleum products. Transportation of cargo(locally). Transport of agricultural products both durable and perishables.",
     delay: 0.1,
   },
   {
     icon: <Droplets className="h-10 w-10 text-primary" />,
     title: "Fuel & Petroleum Products",
-    description: "Specialized transport for fuel and petroleum products, adhering to safety standards.",
+    description: "Operate fuel stations. Sale and distribute gas cylinders. Distribution of petroleum products.",
     delay: 0.2,
   },
   {
@@ -23,22 +23,22 @@ const serviceItems = [
     description: "Temperature-controlled and timely delivery of agricultural produce and perishables.",
     delay: 0.3,
   },
-  {
-    icon: <Package className="h-10 w-10 text-primary" />,
-    title: "Specialized Haulage",
-    description: "Custom solutions for oversized, heavy, or delicate cargo requiring special handling.",
-    delay: 0.4,
-  },
-  {
-    icon: <Zap className="h-10 w-10 text-primary" />,
-    title: "Logistics & Supply Chain",
-    description: "Comprehensive logistics planning and supply chain management solutions.",
-    delay: 0.5,
-  },
+  // {
+  //   icon: <Package className="h-10 w-10 text-primary" />,
+  //   title: "Specialized Haulage",
+  //   description: "Custom solutions for oversized, heavy, or delicate cargo requiring special handling.",
+  //   delay: 0.4,
+  // },
+  // {
+  //   icon: <Zap className="h-10 w-10 text-primary" />,
+  //   title: "Logistics & Supply Chain",
+  //   description: "Comprehensive logistics planning and supply chain management solutions.",
+  //   delay: 0.5,
+  // },
   {
     icon: <Globe className="h-10 w-10 text-primary" />,
-    title: "Climate & Sustainability Research",
-    description: "Pioneering research in climate change adaptation and sustainable transport solutions.",
+    title: "Environmental Protection and Research",
+    description: "Climate change shapes environment and human activities causing significant environmental disruption. Asajab Co. Ltd is to invest resources in environment related research geared at sustainable development.",
     delay: 0.6,
   },
 ];
@@ -63,7 +63,7 @@ const Services = () => {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {serviceItems.map((service, index) => (
             <motion.div
               key={index}

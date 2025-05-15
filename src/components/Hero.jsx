@@ -11,7 +11,7 @@ const Hero = () => {
         <img
           class="w-full h-full object-cover"
           alt="Modern transport truck on a highway at sunset"
-          src="https://images.unsplash.com/photo-1602397619989-5c91486230c1" />
+          src="images/truck2.png" />
         <div className="absolute inset-0 hero-gradient opacity-90"></div>
       </div>
 
@@ -24,17 +24,15 @@ const Hero = () => {
             className="text-white"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Asajabco.Ltd: Driving <span className="text-orange-300">Progress</span>, Sustainably
+              Asajab Co. Ltd: Driving <span className="text-orange-300">Progress</span>, Sustainably
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-xl">
-              Your trusted partner for efficient transport of cargo, fuel, and agricultural produce. Pioneering research in climate change and sustainable development.
+              Your trusted partner for efficient transport of cargo, fuel, and agricultural produce. Pioneering in environmental research on policy formulation for sustainable development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <a href="#contact" className="bg-primary text-primary-foreground text-center hover:bg-primary/90 text-base shadow-xl font-bold px-4 py-4 h-fit rounded-2xl">Contact Us</a>
-              <a href="#services" variant="outline" className="border-white text-center bg-white text-primary rounded-2xl font-bold shadow-xl hover:bg-orange-600 hover:text-white text-base px-4 py-4 h-fit lg:w-fit w-full flex">
-                Our Services <ArrowRight className="ml-2 h-5 w-5" />
-              </a>
+              <a href="#services" className="bg-white text-primary hover:bg-primary/90 text-base hover:text-white shadow-xl font-bold px-4 py-4 h-fit rounded-2xl flex items-center justify-center">Our Services <ArrowRight className="ml-2 h-5 w-5" /></a>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
