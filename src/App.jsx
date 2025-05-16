@@ -39,8 +39,8 @@ function App() {
       <main>
         <Hero />
         <Services />
-        <Portofolio />
         <About />
+        <Portofolio />
         <Testimonials />
         <Contact />
         <FAQ />

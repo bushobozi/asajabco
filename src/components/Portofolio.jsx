@@ -11,6 +11,12 @@ const portfolioItems = [
     {
         title: '',
         description: '',
+        image: '/images/station.jpg',
+        span: 'col-span-1',
+    },
+    {
+        title: '',
+        description: '',
         image: '/images/truck.jpg',
         span: 'col-span-1',
     },

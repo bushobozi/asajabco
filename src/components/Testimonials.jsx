@@ -20,22 +20,22 @@ const testimonials = [
   //     "Asajab company has been our service provider as regards fresh foods and temperature controlled items from fields to air port for export and other heavy duty transportation efficiently and timely delivery of our goods.",
   //   rating: 5,
   // },
-  {
-    name: "Michael Ocen",
-    role: "Restaurant Owner",
-    image: "man-restaurant-owner",
-    content:
-      "As a restaurant owner, reliable gas supply is crucial for my business. Asajab Co. Ltd has never let me down. Their commercial gas service is excellent, and their emergency response is impressively fast.",
-    rating: 5,
-  },
-  {
-    name: "Ahumuza Robert Williams",
-    role: "Factory Manager",
-    image: "man-factory-manager",
-    content:
-      "We've been using Asajab Co. Ltd's industrial gas solutions for our manufacturing plant. Their team helped us optimize our gas usage, resulting in significant cost savings without compromising on quality.",
-    rating: 4,
-  },
+  // {
+  //   name: "Michael Ocen",
+  //   role: "Restaurant Owner",
+  //   image: "man-restaurant-owner",
+  //   content:
+  //     "As a restaurant owner, reliable gas supply is crucial for my business. Asajab Co. Ltd has never let me down. Their commercial gas service is excellent, and their emergency response is impressively fast.",
+  //   rating: 5,
+  // },
+  // {
+  //   name: "Ahumuza Robert Williams",
+  //   role: "Factory Manager",
+  //   image: "man-factory-manager",
+  //   content:
+  //     "We've been using Asajab Co. Ltd's industrial gas solutions for our manufacturing plant. Their team helped us optimize our gas usage, resulting in significant cost savings without compromising on quality.",
+  //   rating: 4,
+  // },
 ];
 
 const Testimonials = () => {
@@ -58,7 +58,7 @@ const Testimonials = () => {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 items-center">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
