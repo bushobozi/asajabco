@@ -13,7 +13,7 @@ const serviceItems = [
   },
   {
     icon: <Droplets className="h-10 w-10 text-primary" />,
-    title: "Fuel & Petroleum Products",
+    title: "Petroleum sales and distribution (fuel service stations)",
     description: "Operate fuel stations. Sale and distribute gas cylinders. Distribution of petroleum products.",
     delay: 0.2,
   },

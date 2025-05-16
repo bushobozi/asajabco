@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 
 const portfolioItems = [
     {
-        title: 'Fuel Transportation',
-        description: 'Efficient delivery of fuel and goods across Uganda and East Africa.',
+        title: '',
+        description: '',
+        image: '/images/poster.jpg',
+        span: 'col-span-1',
+    },
+    {
+        title: '',
+        description: '',
         image: '/images/truck.jpg',
         span: 'col-span-1',
     },
     {
-        title: 'Cargo Transportation',
-        description: 'Efficient delivery of fuel and goods across Uganda and East Africa.',
-        image: '/images/truck.png',
-        span: 'col-span-1',
-    },
-    {
-        title: 'Agricultural Produce',
-        description: 'Sourcing and distributing fresh produce from Ugandan farms.',
-        image: '/images/sugarcane.jpg',
+        title: '',
+        description: '',
+        image: '/images/truck4.jpg',
         span: 'col-span-1',
     },
     {
@@ -25,13 +25,7 @@ const portfolioItems = [
         description: ' ',
         // title: 'Sustainable Development Research',
         // description: 'Innovative research for eco-friendly and sustainable practices. Environmental Protection',
-        image: '/images/farmer.png',
-        span: 'col-span-1',
-    },
-    {
-        title: ' ',
-        description: ' ',
-        image: '/images/truck4.jpg',
+        image: '/images/truck7.jpg',
         span: 'col-span-1',
     },
     {
@@ -40,13 +34,19 @@ const portfolioItems = [
         image: '/images/truck5.jpg',
         span: 'col-span-1',
     },
+    // {
+    //     title: ' ',
+    //     description: ' ',
+    //     image: '/images/truck7.jpg',
+    //     span: 'col-span-1',
+    // },
 ];
 
 const Portofolio = () => {
     return (
         <section id="portfolio" className="py-20 bg-white">
             <div className="container mx-auto px-4 md:px-6">
-                <div className="text-center max-w-3xl mx-auto mb-16">
+                {/* <div className="text-center max-w-3xl mx-auto mb-16">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -60,14 +60,14 @@ const Portofolio = () => {
                             Asabaj Co. Ltd is committed to transforming Uganda’s economy through reliable logistics, sustainable agriculture, and environmental innovation.
                         </p>
                     </motion.div>
-                </div>
+                </div> */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5 }}
                 >
-                    <div className="grid grid-cols-1 lg:grid-cols-3 grid-rows-2 gap-6 auto-rows-[200px]">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-2 gap-6 auto-rows-[500px]">
                         {portfolioItems.map((item, index) => (
                             <div
                                 key={index}
@@ -76,7 +76,7 @@ const Portofolio = () => {
                                 <img
                                     src={item.image}
                                     alt={item.title}
-                                    className=" w-[100%] h-[100%] lg:w-[500px] lg:h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
+                                    className=" w-[100%] h-[100%] lg:w-[100%] lg:h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
                                 />
                                 <div className="absolute inset-0 bg-black/25 bg-opacity-50 flex flex-col justify-end p-4 transition-opacity duration-300 group-hover:bg-opacity-70">
                                     <h3 className="text-xl font-semibold text-white">{item.title}</h3>

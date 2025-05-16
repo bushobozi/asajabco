@@ -27,7 +27,7 @@ const Hero = () => {
               Asajab Co. Ltd: Driving <span className="text-orange-300">Progress</span>, Sustainably
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-xl">
-              Your trusted partner for efficient transport of cargo, fuel, and agricultural produce. Pioneering in environmental research on policy formulation for sustainable development.
+              Your trusted partner for efficient transport of cargo, fuel, and agricultural produce. Pioneering in environmental research on policy formulation for sustainable progress to turn the wheels of the economy.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">

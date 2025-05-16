@@ -5,13 +5,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Birungi",
-    role: "Homeowner",
+    name: "Ategeka Joshua",
+    role: "MD. Atero (u)ltd and Atero foods",
     image: "woman-homeowner",
     content:
-      "Asajab Co. Ltd has been providing gas for my home for over 5 years now. Their service is always prompt, and their staff is knowledgeable and friendly. I highly recommend them for residential gas needs.",
+      "Asajab company has been our service provider as regards fresh foods and temperature controlled items from fields to air port for export and other heavy duty transportation efficiently and timely delivery of our goods.",
     rating: 5,
   },
+  // {
+  //   name: "Ategeka Joshua",
+  //   role: "MD. Atero (u)ltd and Atero foods",
+  //   image: "woman-homeowner",
+  //   content:
+  //     "Asajab company has been our service provider as regards fresh foods and temperature controlled items from fields to air port for export and other heavy duty transportation efficiently and timely delivery of our goods.",
+  //   rating: 5,
+  // },
   {
     name: "Michael Ocen",
     role: "Restaurant Owner",
