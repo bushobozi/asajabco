@@ -93,9 +93,9 @@ const Footer = () => {
                 <span className="text-gray-400">
                   Kampala Offices: Theata Building 1st Floor Room 01, Mawanda Road
                   <br />
-                  Kagadi Offices: Salsa Building, Kagadi-Hoima Road
+                  Asajab service stations, Plot 36 kagadi Market Street, P.O Box 91 kagadi - Uganda
                   <br />
-                  Fort Portal Offices: C/0 Mogas Kitumba-Kla-F/P Road
+                  Fort Portal Offices: C/O Mogas Kitumba-Kampala-Fort Portal Road
                 </span>
               </li>
             </ul>
