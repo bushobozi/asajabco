@@ -58,7 +58,7 @@ const Services = () => {
               Our Comprehensive <span className="text-primary">Services</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Asajabco offers a diverse range of transport and research services tailored to meet your unique needs with efficiency and a commitment to sustainability.
+              Asajab Co. Ltd  offers a diverse range of transport and research services tailored to meet your unique needs with efficiency and a commitment to sustainability.
             </p>
           </motion.div>
         </div>
