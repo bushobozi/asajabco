@@ -10,19 +10,19 @@ import {
 
 const faqItems = [
   {
-    question: "What types of gas services do you offer?",
+    question: "What types of petroleum services do you offer?",
     answer:
-      "We offer a comprehensive range of gas services including residential gas supply, commercial gas solutions, industrial gas services, installation and maintenance of gas systems, gas equipment sales, and emergency gas delivery.",
+      "We offer a comprehensive range of petroleum services including residential petroleum supply, commercial petroleum solutions, industrial petroleum services, installation and maintenance of petroleum systems, petroleum equipment sales, and emergency petroleum delivery.",
   },
   {
-    question: "How do I schedule a gas delivery?",
+    question: "How do I schedule a petroleum delivery?",
     answer:
-      "You can schedule a gas delivery by calling our customer service line at 1-800-GAS-HELP, using our online booking system on our website, or through our mobile app. We offer flexible delivery schedules to meet your needs.",
+      "You can schedule a petroleum delivery by calling our customer service line at 1-800-petroleum-HELP, using our online booking system on our website, or through our mobile app. We offer flexible delivery schedules to meet your needs.",
   },
   {
-    question: "Are your gas services available 24/7?",
+    question: "Are your petroleum services available 24/7?",
     answer:
-      "Yes, our emergency gas services are available 24/7. For regular deliveries and non-emergency services, we operate during standard business hours from Monday to Saturday, 8:00 AM to 6:00 PM.",
+      "Yes, our emergency petroleum services are available 24/7. For regular deliveries and non-emergency services, we operate during standard business hours from Monday to Saturday, 8:00 AM to 6:00 PM.",
   },
   {
     question: "What safety measures do you implement?",
@@ -56,7 +56,7 @@ const FAQ = () => {
               Frequently Asked <span className="text-orange-600">Questions</span>
             </h2>
             <p className="text-lg text-gray-600">
-              Find answers to common questions about our gas services. If you don't see your question here, feel free to contact us.
+              Find answers to common questions about our petroleum services. If you don't see your question here, feel free to contact us.
             </p>
           </motion.div>
         </div>

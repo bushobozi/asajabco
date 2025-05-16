@@ -51,7 +51,7 @@ const About = () => {
               Since 2017, Asajab Co. Ltd has been a leading supplier of petroleum products, gas distribution and transport, serving residential, commercial, and industrial clients with unwavering commitment to safety, reliability, and customer satisfaction.
             </p>
             <p className="text-lg text-gray-700 mb-8">
-              Our team of certified professionals is dedicated to delivering exceptional service, utilizing cutting-edge technology and adhering to the highest industry standards to ensure that your gas needs are met efficiently and safely.
+              Our team of certified professionals is dedicated to delivering exceptional service, utilizing cutting-edge technology and adhering to the highest industry standards to ensure that your petroleum needs are met efficiently and safely.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">

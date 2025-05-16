@@ -12,14 +12,14 @@ const testimonials = [
       "Asajab company has been our service provider as regards fresh foods and temperature controlled items from fields to air port for export and other heavy duty transportation efficiently and timely delivery of our goods.",
     rating: 5,
   },
-  // {
-  //   name: "Ategeka Joshua",
-  //   role: "MD. Atero (u)ltd and Atero foods",
-  //   image: "woman-homeowner",
-  //   content:
-  //     "Asajab company has been our service provider as regards fresh foods and temperature controlled items from fields to air port for export and other heavy duty transportation efficiently and timely delivery of our goods.",
-  //   rating: 5,
-  // },
+  {
+    name: "Sarah Birungi",
+    role: "Home-owener",
+    image: "woman-homeowner",
+    content:
+      "Asajab Co. Ltd has been providing gas for my home for over 5 years now. Their service is always prompt, and their staff is knowledgeable and friendly. I highly recommend them for their good services provided.",
+    rating: 5,
+  },
   // {
   //   name: "Michael Ocen",
   //   role: "Restaurant Owner",
@@ -53,12 +53,12 @@ const Testimonials = () => {
               What Our <span className="text-orange-600">Clients Say</span>
             </h2>
             <p className="text-lg text-gray-600">
-              Don't just take our word for it. Here's what our satisfied clients have to say about our gas services.
+              Don't just take our word for it. Here's what our satisfied clients have to say about our services.
             </p>
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}

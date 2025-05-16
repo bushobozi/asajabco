@@ -3,40 +3,39 @@ import { motion } from "framer-motion";
 
 const portfolioItems = [
     {
-        title: '',
-        description: '',
+        title: 'Fuel Service Stations',
+        description: 'Operate and manage fuel stations.',
         image: '/images/poster.jpg',
         span: 'col-span-1',
     },
     {
-        title: '',
-        description: '',
-        image: '/images/station.jpg',
+        title: 'Fuel Service Stations',
+        description: 'Operate fuel stations. Sale and distribution of petroleum products.',
+        image: '/images/station2.jpg',
         span: 'col-span-1',
     },
     {
-        title: '',
-        description: '',
+        title: 'Fuel Transportation',
+        description: 'Delivery and transportation of fuel across Uganda.',
         image: '/images/truck.jpg',
         span: 'col-span-1',
     },
     {
-        title: '',
-        description: '',
+        title: 'Cargo Transportation',
+        description: 'Delivery and transportation of heavy goods across Uganda.',
         image: '/images/truck4.jpg',
         span: 'col-span-1',
     },
     {
-        title: ' ',
-        description: ' ',
-        // title: 'Sustainable Development Research',
+        title: 'Cargo Transportation',
+        description: 'Efficient delivery of goods across Uganda.',
         // description: 'Innovative research for eco-friendly and sustainable practices. Environmental Protection',
         image: '/images/truck7.jpg',
         span: 'col-span-1',
     },
     {
-        title: ' ',
-        description: ' ',
+        title: 'Agricultural Produce',
+        description: 'Sourcing and distributing fresh produce from Ugandan farms.',
         image: '/images/truck5.jpg',
         span: 'col-span-1',
     },
@@ -73,7 +72,7 @@ const Portofolio = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5 }}
                 >
-                    <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-2 gap-6 auto-rows-[500px]">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 grid-rows-2 gap-6 auto-rows-[500px]">
                         {portfolioItems.map((item, index) => (
                             <div
                                 key={index}
