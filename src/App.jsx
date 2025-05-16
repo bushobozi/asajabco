@@ -6,7 +6,7 @@ import Hero from "@/components/Hero";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import { About, Contact, FAQ, Loader, Portofolio, Services, Testimonials } from "./components";
-import { Helmet } from "react-helmet-async"
+// import { Helmet } from "react-helmet-async"
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -34,12 +34,12 @@ function App() {
         className="fixed top-0 left-0 right-0 h-1 bg-orange-600 z-50 origin-left"
         style={{ scaleX }}
       />
-      <Helmet>
+      {/* <Helmet>
         <title>Asajabco - Leading Transport Solutions</title>
         <meta name="description"
           content="Asajabco offers reliable transport for cargo, fuel, agricultural produce, and leads research in climate change & sustainable development." />
         <meta name="keywords" content="Asajab Company Limited Uganda, fuel developments in uganda, fuel development in uganda, fort portal fuel in uganda, uganda, kampala transporters, kampala traders, trade in uganda, kagadi, muhoro, kagadi district, mogas uganda, impact of total in uganda, global warning in uganda, fuso trucks in uganda, asaba matia, Market street kampala, market street kagadi, kagadi road, Kagadi hoima road, salsa building kagadi, Theata kampala, baby coaches kampala, breaking news kampala, kampala, kampala trade, kampal fuel, fuel prices in uganda, fuel prices in kampala, fort portal" />
-      </Helmet>
+      </Helmet> */}
       <Navbar />
       <main>
         <Hero />
