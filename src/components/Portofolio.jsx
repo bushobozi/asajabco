@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const portfolioItems = [
-    {
-        title: 'Fuel Service Stations',
-        description: 'Operate and manage fuel stations.',
-        image: '/images/poster.jpg',
-        span: 'col-span-1',
-    },
+    // {
+    //     title: 'Fuel Service Stations',
+    //     description: 'Operate and manage fuel stations.',
+    //     image: '/images/poster.jpg',
+    //     span: 'col-span-1',
+    // },
     {
         title: 'Fuel Service Stations',
         description: 'Operate fuel stations. Sale and distribution of petroleum products.',
@@ -36,7 +36,7 @@ const portfolioItems = [
     {
         title: 'Agricultural Produce',
         description: 'Sourcing and distributing fresh produce from Ugandan farms.',
-        image: '/images/truck5.jpg',
+        image: '/images/farmer.png',
         span: 'col-span-1',
     },
     // {
