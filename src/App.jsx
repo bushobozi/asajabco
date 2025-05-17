@@ -24,6 +24,8 @@ function App() {
     return () => clearTimeout(timeout);
   }, []);
 
+  // Preloader
+
   if (loading) {
     return <Loader />;
   }
